@@ -1,0 +1,241 @@
+.bg {
+    background: url('/img/bg.jpg')no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.carimg {
+    width: 100% !important;
+    min-width: 100 !important;
+    height: 300px;
+}
+
+ul.nav a:hover {
+    color: black !important;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    background-color: #333;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.ratings {
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #d17581;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.thumbnail .caption-full {
+    padding: 9px;
+    color: #333;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+ul.dropdown-cart {
+    min-width: 250px;
+}
+
+ul.dropdown-cart li .item {
+    display: block;
+    padding: 3px 10px;
+    margin: 3px 0;
+}
+
+ul.dropdown-cart li .item:hover {
+    background-color: #f3f3f3;
+}
+
+ul.dropdown-cart li .item:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+ul.dropdown-cart li .item-left {
+    float: left;
+}
+
+ul.dropdown-cart li .item-left img,
+ul.dropdown-cart li .item-left span.item-info {
+    float: left;
+}
+
+ul.dropdown-cart li .item-left span.item-info {
+    margin-left: 10px;
+}
+
+ul.dropdown-cart li .item-left span.item-info span {
+    display: block;
+}
+
+ul.dropdown-cart li .item-right {
+    float: right;
+}
+
+ul.dropdown-cart li .item-right button {
+    margin-top: 14px;
+}
+
+.autocomplete-suggestions {
+    border: 1px solid #999;
+    background: #FFF;
+    overflow: auto;
+}
+
+.autocomplete-suggestion {
+    padding: 2px 5px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.autocomplete-selected {
+    background: #F0F0F0;
+}
+
+.autocomplete-suggestions strong {
+    font-weight: normal;
+    color: #3399FF;
+}
+
+.autocomplete-group {
+    padding: 2px 5px;
+}
+
+.autocomplete-group strong {
+    display: block;
+    border-bottom: 1px solid #000;
+}
+
+
+/*********************************************
+                Call Bootstrap
+*********************************************/
+
+@import url("bootstrap/bootstrap.min.css");
+@import url("bootstrap-override.css");
+@import url("//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
+.gold {
+    color: #FFBF00;
+}
+
+.product {
+    height: 300px;
+}
+
+.product-rating {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.product-title {
+    font-size: 20px;
+}
+
+.product-desc {
+    font-size: 14px;
+}
+
+.product-price {
+    font-size: 22px;
+}
+
+.product-stock {
+    color: #74DF00;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.product-info {
+    margin-top: 50px;
+}
+
+.content-wrapper {
+    max-width: 1140px;
+    background: #fff;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    border: 0px;
+    border-radius: 0px;
+}
+
+.view-wrapper {
+    float: right;
+    max-width: 70%;
+    margin-top: 25px;
+}
+
+.container {
+    padding-left: 0px;
+    padding-right: 0px;
+    max-width: 100%;
+}
+
+.service1-items {
+    padding: 0px 0 0px 0;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+    height: 321px;
+    width: 130px;
+}
+
+.service1-item {
+    height: 107px;
+    width: 120px;
+    display: block;
+    float: left;
+    position: relative;
+    padding-right: 20px;
+    border-right: 1px solid #DDD;
+    border-top: 1px solid #DDD;
+    border-bottom: 1px solid #DDD;
+}
+
+.service1-item > img {
+    max-height: 110px;
+    max-width: 110px;
+    opacity: 0.6;
+    transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -moz-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+}
+
+.service1-item > img:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+.service-image-left {
+    padding-right: 50px;
+}
+
+.service-image-right {
+    padding-left: 50px;
+}
+
+.service-image-left > center > img,
+.service-image-right > center > img {
+    max-height: 255px;
+}

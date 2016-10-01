@@ -1,0 +1,71 @@
+<nav class="navbar navbar" >
+  <div class="container-fluid" style="background-color:#37474f">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header" >
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/" style="font-size:40px;color:#ffffff; font-family: 'Petit Formal Script', cursive; margin-bottom:5px">Gadget Palace</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a  href="/" style="color:#ffe11b;font-weight:900; "><i class="fa fa-home" aria-hidden="true" style="font-size:25px"></i></a></li>
+      </ul>
+      <div class="form-group">
+          <input type="text" class="form-control" placeholder="SEARCH PRODUCTS, BRANDS etc" id="autocomplete">
+        </div>
+
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+  <div class="container-fluid" style="background-color:#ffe11b ">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header" >
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+       <li><a  href="#" style="color:black;font-weight:900; ">CATEGORIES <i class="fa fa-chevron-right" aria-hidden="true"></i></a></li>
+        <li><a  href="/category/Mobile" style="color:black;font-weight:900; ">MOBILES</a></li>
+        <li><a href="/category/Laptop" style="color:black;font-weight:900">LAPTOPS</a></li>
+        <li><a href="/category/Pendrive" style="color:black;font-weight:900">PENDRIVES</a></li>
+        <li><a href="/category/Camera" style="color:black;font-weight:900">CAMERAS</a></li>
+        <li><a href="/category/Televison" style="color:black;font-weight:900">TELEVISONS</a></li>
+      </ul>
+            <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"> <span class="glyphicon glyphicon-shopping-cart"></span> CART<span class="caret"></span></a>
+          <ul class="dropdown-menu dropdown-cart" role="menu">
+              <li>
+                  <span class="item">
+                    <span class="item-left">
+                        <img class="cart-img"  alt="" style="height:50px;weight:50px;"/>
+                        <span class="item-info">
+                            <span class="cart-product-name">Your cart is empty</span>
+                            <span class="cart-product-price"></span>
+                        </span>
+                    </span>
+                    <span class="item-right">
+                        <button class="btn btn-xs btn-danger pull-right" onclick="removecart()">x</button>
+                    </span>
+                </span>
+              </li>
+              <li class="divider"></li>
+              <li><a class="text-center" href="/cart">View Cart</a></li>
+          </ul>
+
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+
+</nav>

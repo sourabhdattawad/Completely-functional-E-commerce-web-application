@@ -1,0 +1,99 @@
+{{!-- <div class="container">
+<div class="paragraphs">
+  <div class="row" style="height:600px;">
+    <div class="span4">
+      <div class="clearfix content-heading">
+      	<span class="product-details" data-product_name="{{product.product_name}}" data-product_id="{{product.id}}" data-product_price="{{product.price}}" data-img="{{product.img}}"style="display:none"></span>
+          <img class="mg-responsive pull-left" src="{{product.img}}" style="size:300px;width:300px"/>
+          <h2><b>{{product.product_name}}</b></h2>
+          <hr>
+          <br>
+          <h3>Brand : {{product.brand}} </h3>
+          <h3>Type : {{product.type}} </h3>
+          <h3>Price : Rs. {{product.price}} </h3>
+          <hr>
+          <div class="btn-group cart">
+			<button type="button" class="btn btn-success btn-lg" onclick="add_to_cart()">Add to cart 
+			</button>
+		</div>
+		<br>
+		<span class="text-success added-to-cart"></span>
+
+          <br>
+          <br>
+
+          
+      </div>
+      
+    </div>
+    <h3><b>Description:</b></h3>
+          <p>{{product.description}}</p>
+  </div>
+
+</div>
+
+</div> --}}
+<div class="container-fluid">
+    <div class="content-wrapper">	
+    <h2>{{product.type}} </h2>
+    <hr>
+		<div class="item-container">	
+			<div class="container">	
+				<div class="col-md-12">
+					<div class="product col-md-3 service-image-left">
+                    
+						<center>
+							<img  src="{{product.img}}" alt=""></img>
+						</center>
+					</div>
+				</div>
+					
+				<div class="col-md-7" >
+					<span class="product-details" data-product_name="{{product.product_name}}" data-product_id="{{product.id}}" data-product_price="{{product.price}}" data-img="{{product.img}}"style="display:none"></span>
+					<div class="product-title">{{product.product_name}}</div>
+					<hr>
+					<div class="product-price">Rs. {{product.price}}</div>
+					<div class="product-stock">In Stock</div>
+					<hr>
+					<div class="btn-group cart">
+						<button type="button" class="btn btn-success btn-lg" onclick="add_to_cart()">
+							Add to cart 
+						</button>
+					</div>
+					<span class="text-success added-to-cart"></span>
+
+				</div>
+			</div> 
+		</div>
+		<div class="container-fluid">		
+			<div class="col-md-12 product-info">
+					<ul id="myTab" class="nav nav-tabs nav_tabs">
+						
+						<li class="active"><a href="#service-one" data-toggle="tab">DESCRIPTION</a>
+						</li>
+						
+					</ul>
+				<div id="myTabContent" class="tab-content">
+						<div class="tab-pane fade in active" id="service-one">
+						 
+							<section class="container product-info">
+								{{product.description}}
+							</section>
+										  
+						</div>
+					<div class="tab-pane fade" id="service-two">
+						
+						<section class="container">
+								
+						</section>
+						
+					</div>
+					<div class="tab-pane fade" id="service-three">
+												
+					</div>
+				</div>
+				<hr>
+			</div>
+		</div>
+	</div>
+</div>

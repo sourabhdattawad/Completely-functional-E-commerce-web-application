@@ -1,0 +1,29 @@
+<div class="container">
+<hr>
+<div class="row">
+    <div class="col-lg-12">
+        <h3>Products</h3>
+        <hr>
+    </div>
+</div>
+<div class="row text-center">
+	{{#each product}}
+
+    <div class="col-md-3 col-sm-6 hero-feature"  style="width:400px">
+        <div class="thumbnail">
+            <img src="{{img}}" alt=""style="height:200px;width:200px">
+                                <hr>
+
+            <div class="caption">
+                <p><b>{{product_name}}</b></p>
+                <p>Brand : {{brand}}</p>
+                <p>Price : Rs. {{price}}</p>
+                <center>
+                    <a href="/product/{{id}}" class="btn btn-primary">VIEW</a>
+                </center>
+            </div>
+        </div>
+    </div>
+    {{/each}}
+<hr>
+</div>

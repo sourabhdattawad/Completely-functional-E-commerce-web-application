@@ -1,0 +1,27 @@
+<div class="container" style="background-color:#ffffff">
+  <h2>Orders</h2>
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Product</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Phone</th>
+        <th>Payment</th>
+
+      </tr>
+    </thead>
+    <tbody>
+      {{#each order}}
+      <tr>
+        <td>{{product}}</td>
+        <td>{{name}}</td>
+        <td>{{email}}</td>
+        <td>{{phone}}</td>
+        <td>{{payment}}</td>
+      </tr>
+      {{/each}}
+
+    </tbody>
+  </table>
+</div>
